@@ -68,7 +68,7 @@ const LoginForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/admin/login",
+        "https://app-ql6v.onrender.com/api/admin/login",
         // "http://msme.drunkcafe.in/api/admin/login",
         formData,
         {

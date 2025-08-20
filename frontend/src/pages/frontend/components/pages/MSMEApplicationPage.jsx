@@ -325,7 +325,7 @@ function MSMEAwardApplicationPage() {
     try {
       const response = await axios.post(
         // `http://msme.drunkcafe.in/api/applications`,
-         `http://localhost:5000/api/applications`,
+         `https://app-ql6v.onrender.com/api/applications`,
         formDataToSend,
         {
           headers: {

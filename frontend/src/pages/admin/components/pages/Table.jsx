@@ -39,7 +39,7 @@ export default function InteractiveUserTable({
       setLoading(true);
       const response = await fetch(
         // "https://msmebackend-9z2p.onrender.com/api/applications",
-        `${config.baseUrl}api/applications`,
+        `${config.baseUrl}/api/applications`,
         {
           method: "GET",
           headers: {
@@ -143,7 +143,7 @@ export default function InteractiveUserTable({
       setDeletingId(userId);
       const response = await fetch(
         // `https://msmebackend-9z2p.onrender.com/api/applications/${userId}`,
-        `${config.baseUrl}/api/applications/${userId}`,
+        `${config.baseUrl}api/applications/${userId}`,
         {
           method: "DELETE",
           headers: {

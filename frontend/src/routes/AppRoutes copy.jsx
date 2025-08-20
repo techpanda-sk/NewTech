@@ -24,8 +24,8 @@ const AppRoutes = () => {
                   {/* Frontend Routes */}
                   <Route path="/" element={<MSMEAwardApplicationForm/>}/>
                    {/* Admin Panel Routes */}
-              <Route path="admin/login" element={<Login />} />
-              <Route path="/admin" element={<Layout />}>
+              <Route path="/login" element={<Login />} />
+              <Route path="/" element={<Layout />}>
                 <Route
                   path="table"
                   element={
